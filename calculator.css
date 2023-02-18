@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+#calculator{
+    width: 300px;
+    height: 400px;
+    /* background-color: lawngreen; */
+    background-image: linear-gradient(lime,brown,yellow);
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px blue,-2px -2px 5px red;
+}
+ 
+#calculator:hover{
+    width: 300px;
+    height: 400px;
+    /* background-color: white; */
+    background-image: radial-gradient(white,orange,blue);
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px blue,-2px -2px 5px rgb(0,255, 162);
+}
+
+#calc{
+    margin-top: 25px;
+    width: 80%;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    box-shadow: 0px 0px 5px red;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.i1{
+    width: 60px;
+    font-size: 30px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.i1:hover{
+    width: 60px;
+    font-size: 30px;
+    height: 40px;
+    color: rgb(0,0,0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+b{
+    margin-top: 20px;
+}
+
+#clear{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 10px 5px black;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 15px;
+    color: red;
+    font-weight: bolder;
+}
+
+#clear:hover{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: black;
+    box-shadow: 0px 3px 5px rgb(255,0,0);
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 15px;
+    color:white;
+    font-weight: bolder;
+} 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   <center> <div id="calculator">
+    <form name="cform">
+        <input type="text" id="calc" name="Answer">
+        <br><br>
+        <input type="button" id="b" value="1" class="i1"  onclick="cform.Answer.value +='1'">
+        <input type="button" value="2" class="i1"  onclick="cform.Answer.value +='2'">
+        <input type="button" value="3" class="i1"  onclick="cform.Answer.value +='3'">
+        <input type="button" value="+" class="i1"  onclick="cform.Answer.value +='+'">
+        <br><br>
+        <input type="button" value="4" class="i1"  onclick="cform.Answer.value +='4'">
+        <input type="button" value="5" class="i1"  onclick="cform.Answer.value +='5'">
+        <input type="button" value="6" class="i1"  onclick="cform.Answer.value +='6'">
+        <input type="button" value="-" class="i1"  onclick="cform.Answer.value +='-'">
+        <br><br>
+        <input type="button" value="7" class="i1"  onclick="cform.Answer.value +='7'">
+        <input type="button" value="8" class="i1"  onclick="cform.Answer.value +='8'">
+        <input type="button" value="9" class="i1"  onclick="cform.Answer.value +='9'">
+        <input type="button" value="*" class="i1"  onclick="cform.Answer.value +='*'">
+        <br><br>
+        <input type="button" value="/" class="i1"  onclick="cform.Answer.value +='/'">
+        <input type="button" value="0" class="i1"  onclick="cform.Answer.value +='0'">
+        <input type="button" value="." class="i1"  onclick="cform.Answer.value +='.'">
+        <input type="button" value="=" class="i1"  onclick="cform.Answer.value = eval (cform.Answer.value)">
+        <br><br>
+        <input type="button" value="clear" id="clear" onclick="cform.Answer.value=' '">
+    </form>
+</div></center>
+</body>
+</html>
